@@ -1,0 +1,24 @@
+{
+  "name": "retrosheet-digester",
+  "version": "1.0.0",
+  "description": "This application will digest retrosheet data by year, and then insert it into a DB",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dillonreedy/retrosheet-digester.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dillonreedy/retrosheet-digester/issues"
+  },
+  "homepage": "https://github.com/dillonreedy/retrosheet-digester#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "nodemon": "^2.0.6"
+  }
+}
